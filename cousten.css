@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ body{
+    background-image: url(download.jpg);
+    display: grid;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+ div{
+    width: 50%;
+    display: grid;
+    place-items: center;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    margin-top: 25px;
+ }
+ input{
+    font-size: 25px;
+    font-style: normal;
+    border: 3px solid rgb(224, 226, 236);
+    border-radius: 20px;
+    text-align: center;
+    padding: 7px;
+    color: black;
+    background-color: transparent;
+ }
+ button{
+    border: 3px solid rgb(235, 236, 212);
+    border-radius: 20px;
+    text-align: center;
+    padding: 7px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    background-color: transparent;
+ }
